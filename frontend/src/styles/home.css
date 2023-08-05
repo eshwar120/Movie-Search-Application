@@ -1,0 +1,13 @@
+.movies-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: space-around;
+}
+
+@media screen and (width < 640px) {
+    .movies-container{
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fill, 150px);
+    }
+}
