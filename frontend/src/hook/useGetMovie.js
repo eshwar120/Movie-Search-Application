@@ -16,7 +16,7 @@ export default function useGetMovie(url, id) {
         },
       })
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         setMovie(response.data.data);
         setLoading(false);
       })
