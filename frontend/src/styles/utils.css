@@ -1,0 +1,31 @@
+.bg-dark {
+    background-color: rgb(15, 23, 42);
+}
+
+.bg-dark-nav {
+    background-color: rgba(15, 23, 42, 0.98);
+}
+
+.card-bg {
+    background-color: rgb(51, 65, 85);
+}
+
+.border-color {
+    border-color: rgb(34, 48, 69);
+}
+
+.vh-100-nav {
+    min-height: calc(100vh - 80.4px);
+}
+
+.p-top {
+    padding-top: 2.5px;
+}
+
+.grid-full{
+    grid-column: 1/-1;
+}
+.text-gradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
