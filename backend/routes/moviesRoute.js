@@ -26,6 +26,7 @@ moviesRoute.get("", (req, res) => {
         }
       )
         .then((response) => {
+          console.log(response)
           if (response.status === 200) return response.json();
           throw new Error(response);
         })
@@ -63,7 +64,7 @@ moviesRoute.get("/search", (req, res) => {
         }
       )
         .then((response) => {
-          // console.log(response)
+          console.log(response)
           if (response.status === 200) return response.json();
           throw new Error(response);
         })
@@ -84,7 +85,7 @@ moviesRoute.get("/search", (req, res) => {
       });
     }
   } else {
-    res.status(404).json({
+    res.status(400).json({
       message: "Not found"
     });
   }
