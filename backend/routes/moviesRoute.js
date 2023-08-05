@@ -8,6 +8,9 @@ const moviesRoute = express.Router();
 moviesRoute.get("", (req, res) => {
   const movieName = req.query.movieName;
   const page = req.query.page;
+
+  console.log(`Hit "" end point at ${new Date()}`)
+
   if(page){
     try {
 
@@ -51,6 +54,7 @@ moviesRoute.get("", (req, res) => {
 
 //search by movie id
 moviesRoute.get("/search", (req, res) => {
+  console.log(`Hit "/search" end point at ${new Date()}`)
   const id = req.query.id;
   if (id) {
     try {
