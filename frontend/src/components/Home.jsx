@@ -9,7 +9,7 @@ import Error from './Error';
 
 export default function Home() {
 
-    console.log("rendered")
+    // console.log("rendered")
     const { search } = useContext(UserContext)
     const [pageNumber, setPageNumber] = useState(1)
     const { loading, error, movies, hasMore, notFound } = useMoviesSearch(import.meta.env.VITE_SERVER_ADDRESS, search, pageNumber);
@@ -36,7 +36,7 @@ export default function Home() {
                 <div className='p-4 w-full movies-container'>
                     {
                         (movies.length === 0 && !error && !notFound) ?
-                            <div className='grid-full -my-4'>
+                            <div className='grid-full -my-4 '>
                                 <Loading />
                             </div>
                             :

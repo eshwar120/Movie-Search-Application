@@ -27,7 +27,7 @@ export default function useMoviesSearch(url, query, pageNumber) {
         }),
       })
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         setMovies((movies) => [
           ...movies,
           ...response.data.data.results.map((item) => {
@@ -45,8 +45,8 @@ export default function useMoviesSearch(url, query, pageNumber) {
         setError(false)
       })
       .catch((err) => {
-        console.log(err)
         if (axios.isCancel(err)) return
+        console.log(err)
           setError(true);
           setLoading(false);
           setNotFound(false)
