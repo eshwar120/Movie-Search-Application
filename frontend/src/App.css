@@ -6,6 +6,24 @@
   background: linear-gradient(to right, #141e30, #243b55);
 }
 
+.cast-card:hover div div{
+ transform: translateY(0);
+}
+
+.overflow-ellips{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (width <= 500px){
+  .cast-card{
+    width: 30vw;
+  }
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

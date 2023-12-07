@@ -8,6 +8,7 @@ import './styles/utils.css'
 import MovieInfo from './components/MovieInfo'
 import Loading from './components/Loading'
 import LandingPage from './components/LandingPage'
+import Actor from './components/Actor'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/' element={<LandingPage/>}/>
             <Route path='/home' element={<Home />} />
             <Route path='/movie/:id' element={<MovieInfo/>}/>
+            <Route path='/actor/:id' element={<Actor/>}/>
             <Route path='/load' element={<Loading/>}/>
             <Route path='*' element={<Notfound />} />
           </Routes>
