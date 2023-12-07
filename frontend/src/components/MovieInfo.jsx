@@ -5,7 +5,7 @@ import startLogo from '../assets/star.svg'
 import Loading from './Loading';
 import Error from './Error';
 import axios from 'axios';
-import CastCard from './castCard';
+import CastCard from './CastCard';
 
 export default function MovieInfo() {
 
@@ -79,15 +79,15 @@ export default function MovieInfo() {
                     </div>
                   </div>
                   <div className='w-full'>
-                      <p className='text-xl font-bold text-sky-800 pb-4'>Cast</p>
-                      <div className='cast-container w-full'>
-                        {
-                          movie.cast !== undefined && movie.cast.cast.map(item => {
-                            return <CastCard item={item} />
-                          })
-        
-                        }
-                      </div>
+                    <p className='text-xl font-bold text-sky-800 pb-4'>Cast</p>
+                    <div className='cast-container w-full'>
+                      {
+                        movie.cast !== undefined && movie.cast.cast.map(item => {
+                          return <CastCard item={item} />
+                        })
+
+                      }
+                    </div>
                   </div>
                 </div>
 
