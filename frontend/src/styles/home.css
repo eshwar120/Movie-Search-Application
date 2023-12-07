@@ -5,8 +5,30 @@
     justify-content: space-around;
 }
 
+.cast-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 150px);
+    justify-content: space-around;
+}
+
+.movie-actor-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: space-around;
+}
+
 @media screen and (width < 640px) {
     .movies-container{
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fill, 150px);
+    }
+    .cast-container{
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fill, 100px);
+    }
+    .movie-actor-container{
         grid-gap: 5px;
         grid-template-columns: repeat(auto-fill, 150px);
     }

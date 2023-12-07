@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-export default function useGetMovie(url, id) {
-  const [movie, setMovie] = useState({});
+export default function useGetActor(url, id) {
+  const [actor, setActor] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
@@ -17,7 +17,7 @@ export default function useGetMovie(url, id) {
       })
       .then((response) => {
         // console.log(response);
-        setMovie(response.data);
+        setActor(response.data);
         setLoading(false);
       })
       .catch((err) => {
@@ -26,10 +26,10 @@ export default function useGetMovie(url, id) {
 
     return () => {
       setLoading(false);
-      setMovie({});
+      setActor({});
       setError(false)
     };
   }, [id]);
 
-  return { loading, error, movie };
+  return { loading, error, actor };
 }
