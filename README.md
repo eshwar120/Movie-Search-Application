@@ -1,14 +1,14 @@
 # Movie Search App
 
-![Movie Search App](<img width="1080" alt="Screenshot 2023-08-05 234701" src="https://github.com/eshwar120/Movie-Search-Application/assets/125289759/1f99b2d4-02c0-45a8-925c-623bd7eb97aa">)
+<img width="1080" alt="Screenshot 2023-08-05 234701" src="https://github.com/eshwar120/Movie-Search-Application/assets/125289759/f1f4b5df-0706-4f37-9f47-fce6d07c4aff">
 
-Welcome to the Movie Search App! This application allows you to explore popular movies and access detailed information about each movie. You can also use the search option to query movies by name and find your favorites easily. Additionally, the app provides support for both dark and light themes, enhancing your movie browsing experience.
+Welcome to the Movie Search App! This application allows you to explore popular movies and access detailed information about each movie. You can also use the search option to query movies by name and fin
+d your favorites easily. Additionally, the app provides support for both dark and light themes, enhancing your movie browsing experience.
 
 ## Live Demo
-![Uploading Screenshot 2023-08-05 234701.png…](<img width="1066" alt="Screenshot 2023-08-05 235011" src="https://github.com/eshwar120/Movie-Search-Application/assets/125289759/b19efbea-cdd0-4066-bdb4-f27558ca545f">
-)
+<img width="1066" alt="Screenshot 2023-08-05 235011" src="https://github.com/eshwar120/Movie-Search-Application/assets/125289759/be0c674b-18f7-47fd-81f8-959a52951340">
 
-You can access the live demo of the Movie Search App at (https://movie-search-by-eshwar.netlify.app/).
+## You can access the live demo of the Movie Search App at (https://movie-search-by-eshwar.netlify.app/).
 
 ## Features
 
