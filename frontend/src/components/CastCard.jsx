@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function CastCard({ item }) {
-    console.log(item)
+    // console.log(item)
     const { profile_path, character, name } = item;
     return (
         <Link to={`/actor/${item.id}`}  className=' overflow-hidden rounded-md cast-card'>
