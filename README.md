@@ -14,6 +14,7 @@ You can access the live demo of the Movie Search App at (https://movie-search-by
 
 - Browse popular movies with ease
 - Access detailed information for each movie
+- Access detailed informatiom of each cast member
 - Search for movies by name
 - Enjoy a visually appealing dark and light theme
 
